@@ -1,0 +1,5 @@
+$("#ler-mais").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $(".descriptions").offset().top - 200
+    }, 2000);
+});
